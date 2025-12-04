@@ -1,0 +1,58 @@
+@use "../util/functions" as *;
+//mobile: w375 h812
+//tablet: w768 h1024
+//desktop: w1440 h960
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: var(--font), Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0;
+  background-color: var(--color-bg);
+
+  font-size: var(--font-size-main);
+  font-weight: var(--fw-regular);
+  color: var(--color-text);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--fw-semi-bold);
+  color: var(--color-h2);
+}
+
+h3{
+  font-size: var(--font-size-h3);
+  font-weight: var(--fw-bold);
+  color: var(--color-h3);
+}
+
+input, button, textarea, select {
+  font: inherit;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+img, picture, svg, video {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,19 @@
+:root{
+  --c-grey-700: hsl(0, 0%, 20%);
+  --c-grey-800: hsl(0, 0%, 12%);
+  --c-grey-900: hsl(0, 0%, 8%);
+  --c-green: hsl(75, 94%, 57%);
+  --c-white: hsl(0, 0%, 100%);
+
+  --color-bg: var(--c-grey-900);
+  --color-text: var(--c-white);
+  --color-h2: var(--c-white);
+  --color-h3: var(--c-green);
+  --color-p: var(--c-white);
+  --color-card-bg: var(--c-grey-800);
+  --color-card-text: var(--c-white);
+  --color-button-primary: var(--c-grey-700);
+  --color-button-primary-text: var(--c-white);
+  --color-button-primary-hover: var(--c-green);
+  --color-button-primary-hover-text: var(--c-grey-700);
+}
